@@ -1,7 +1,7 @@
-# Cotton Workers Tracking Website - Original Version
+# Cotton Workers Tracking Website - Red & White Theme
 
 ## Overview
-A comprehensive web application for tracking cotton workers' daily activities, attendance, and session management.
+A comprehensive web application for tracking cotton workers' daily activities, attendance, and session management with a professional red and white color scheme.
 
 ## Features
 - Worker entry and exit tracking
@@ -10,19 +10,26 @@ A comprehensive web application for tracking cotton workers' daily activities, a
 - Export functionality (CSV/PDF)
 - Responsive design
 - Local storage for data persistence
-- Clean and intuitive user interface
+- Clean red and white themed interface
 
 ## Files Included
 - `index.html` - Main HTML structure
-- `style.css` - Original blue color scheme styling
+- `style.css` - Red and white color scheme styling
 - `app.js` - JavaScript functionality and logic
 
 ## Color Scheme
-- Primary: Light Blue (#87CEEB)
-- Secondary: Teal accents
-- Background: Clean whites and light grays
-- Success: Green tones
-- Error: Red tones
+- Primary: Classic Red (#DC3545)
+- Secondary: Light red/pink accents (#FFE6E8)
+- Background: Clean whites and very light red tones
+- Success: Green tones (maintained)
+- Error: Red tones (consistent with theme)
+
+## Key Design Updates
+- Header with red gradient background
+- Red-themed buttons and interactive elements
+- Light red/pink backgrounds for forms and cards
+- Consistent red and white color palette throughout
+- Maintained excellent readability and contrast
 
 ## How to Use
 1. Extract all files to a folder
@@ -43,4 +50,4 @@ A comprehensive web application for tracking cotton workers' daily activities, a
 - Safari
 - Edge
 
-Developed with love for cotton industry management! 🌱
+Developed with love for cotton industry management! 🌱❤️

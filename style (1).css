@@ -740,33 +740,37 @@ select.form-control {
 /* END PERPLEXITY DESIGN SYSTEM */
 /* Mobile-first responsive design for Cotton Worker Tracker with Light Color Scheme */
 
-/* Override design system with lighter colors */
+
+/* Override design system with red and white color scheme */
 :root {
-  /* Light color overrides */
-  --color-primary: #87CEEB; /* Light blue */
-  --color-primary-hover: #5DADE2; /* Slightly darker light blue */
-  --color-primary-active: #3498DB; /* Medium blue */
-  --color-secondary: #E8F6F3; /* Very light mint */
-  --color-secondary-hover: #D1F2EB; /* Light mint */
-  --color-secondary-active: #A3E4D7; /* Soft mint */
-  --color-background: #FAFAFA; /* Very light gray */
-  --color-surface: #FFFFFF; /* Pure white */
-  --color-text: #2C3E50; /* Soft dark blue-gray */
-  --color-text-secondary: #7B8794; /* Light gray */
-  --color-border: #E5E8EC; /* Very light border */
-  --color-success: #52C41A; /* Light green */
-  --color-error: #FF7875; /* Light red */
-  --color-warning: #FAAD14; /* Light orange */
-  
-  /* Light backgrounds */
-  --color-bg-1: #F0F8FE; /* Very light blue */
-  --color-bg-2: #FFF7E6; /* Very light yellow */
-  --color-bg-3: #F6FFED; /* Very light green */
-  --color-bg-4: #FFF1F0; /* Very light red */
-  --color-bg-5: #F9F0FF; /* Very light purple */
-  --color-bg-6: #FFF2E8; /* Very light orange */
-  --color-bg-7: #FFF0F6; /* Very light pink */
-  --color-bg-8: #E6FFFB; /* Very light cyan */
+/* Red and white color scheme */
+--color-primary: #DC3545; /* Classic red */
+--color-primary-hover: #C82333; /* Darker red on hover */
+--color-primary-active: #A21D2B; /* Even darker red on active */
+--color-secondary: #FFE6E8; /* Very light red/pink */
+--color-secondary-hover: #FFD1D6; /* Light red/pink */
+--color-secondary-active: #FFBCC4; /* Soft red/pink */
+--color-background: #FAFAFA; /* Very light gray/white */
+--color-surface: #FFFFFF; /* Pure white */
+--color-text: #2C3E50; /* Soft dark blue-gray */
+--color-text-secondary: #7B8794; /* Light gray */
+--color-border: #E5E8EC; /* Very light border */
+--color-success: #28A745; /* Keep green for success */
+--color-error: #DC3545; /* Red for error */
+--color-warning: #FFC107; /* Keep yellow for warning */
+
+/* Light red backgrounds */
+--color-bg-1: #FFF5F5; /* Very light red */
+--color-bg-2: #FFF7E6; /* Very light yellow */
+--color-bg-3: #F6FFED; /* Very light green */
+--color-bg-4: #FFF1F0; /* Very light red */
+--color-bg-5: #FDF2F8; /* Very light pink */
+--color-bg-6: #FFF2E8; /* Very light orange */
+--color-bg-7: #FFF0F6; /* Very light pink */
+--color-bg-8: #FEF2F2; /* Very light red/pink */
+}
+
+
 }
 
 .app-container {
@@ -777,11 +781,11 @@ select.form-control {
 }
 
 .app-header {
-  background: linear-gradient(135deg, #87CEEB 0%, #B8E6FF 100%); /* Soft blue gradient */
+  background: linear-gradient(135deg, #DC3545 0%, #FF6B7A 100%); /* Soft blue gradient */
   color: white;
   padding: var(--space-16);
   text-align: center;
-  box-shadow: 0 2px 8px rgba(135, 206, 235, 0.2);
+  box-shadow: 0 2px 8px rgba(220, 53, 69, 0.2);
 }
 
 .app-header h1 {
@@ -843,9 +847,9 @@ select.form-control {
 .worker-entry-form {
   margin-top: var(--space-20);
   padding: var(--space-16);
-  background: linear-gradient(135deg, var(--color-bg-2) 0%, #FFFBF0 100%);
+  background: linear-gradient(135deg, var(--color-bg-4) 0%, #FFF5F5 100%);
   border-radius: var(--radius-lg);
-  border: 1px solid #F7E98E;
+  border: 1px solid #FFBCC4;
 }
 
 .worker-entry-form h3 {
@@ -887,7 +891,7 @@ select.form-control {
 }
 
 .entries-table th {
-  background: linear-gradient(135deg, var(--color-bg-3) 0%, #F0FFF4 100%);
+  background: linear-gradient(135deg, var(--color-bg-4) 0%, #FFF5F5 100%);
   font-weight: var(--font-weight-semibold);
   color: var(--color-text);
 }
@@ -952,11 +956,11 @@ select.form-control {
 
 /* Session Summary */
 .session-summary {
-  background: linear-gradient(135deg, var(--color-bg-5) 0%, #FCF3FF 100%);
+  background: linear-gradient(135deg, var(--color-bg-4) 0%, #FFF5F5 100%);
   padding: var(--space-16);
   border-radius: var(--radius-lg);
   margin-bottom: var(--space-16);
-  border: 1px solid #E8DAEF;
+  border: 1px solid #FFBCC4;
 }
 
 .summary-item {
@@ -1000,18 +1004,18 @@ select.form-control {
 }
 
 .history-date-header {
-  background: linear-gradient(135deg, var(--color-bg-6) 0%, #FFF8E1 100%);
+  background: linear-gradient(135deg, var(--color-bg-4) 0%, #FFF5F5 100%);
   padding: var(--space-16);
   cursor: pointer;
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 56px; /* Touch-friendly */
-  border-bottom: 1px solid #FFE0B2;
+  border-bottom: 1px solid #FFBCC4;
 }
 
 .history-date-header:hover {
-  background: linear-gradient(135deg, #FFF3E0 0%, #FFF8E1 100%);
+  background: linear-gradient(135deg, #FFF5F5 0%, #FEF2F2 100%);
 }
 
 .date-info h4 {
@@ -1061,25 +1065,25 @@ select.form-control {
 }
 
 .btn--primary {
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+  background: linear-gradient(135deg, #DC3545 0%, #C82333 100%);
   color: white;
   border: none;
 }
 
 .btn--primary:hover {
-  background: linear-gradient(135deg, var(--color-primary-hover) 0%, var(--color-primary-active) 100%);
-  box-shadow: 0 2px 6px rgba(135, 206, 235, 0.3);
+  background: linear-gradient(135deg, #C82333 0%, #A21D2B 100%);
+  box-shadow: 0 2px 6px rgba(220, 53, 69, 0.3);
 }
 
 .btn--secondary {
-  background: linear-gradient(135deg, var(--color-secondary) 0%, var(--color-secondary-hover) 100%);
+  background: linear-gradient(135deg, #FFE6E8 0%, #FFD1D6 100%);
   color: var(--color-text);
   border: 1px solid var(--color-border);
 }
 
 .btn--secondary:hover {
-  background: linear-gradient(135deg, var(--color-secondary-hover) 0%, var(--color-secondary-active) 100%);
-  box-shadow: 0 2px 6px rgba(163, 228, 215, 0.3);
+  background: linear-gradient(135deg, #FFD1D6 0%, #FFBCC4 100%);
+  box-shadow: 0 2px 6px rgba(255, 188, 196, 0.3);
 }
 
 .btn--outline {
@@ -1146,7 +1150,7 @@ select.form-control {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(135, 206, 235, 0.8); /* Light blue overlay */
+  background-color: rgba(220, 53, 69, 0.8); /* Light blue overlay */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1180,11 +1184,11 @@ select.form-control {
   top: 80px;
   left: 50%;
   transform: translateX(-50%);
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+  background: linear-gradient(135deg, #DC3545 0%, #C82333 100%);
   color: white;
   padding: var(--space-12) var(--space-20);
   border-radius: var(--radius-lg);
-  box-shadow: 0 4px 12px rgba(135, 206, 235, 0.3);
+  box-shadow: 0 4px 12px rgba(220, 53, 69, 0.3);
   z-index: 1500;
   font-weight: var(--font-weight-medium);
   max-width: 90%;
@@ -1229,7 +1233,7 @@ select.form-control {
 
 .form-control:focus {
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(135, 206, 235, 0.1);
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.1);
   outline: none;
 }
 
@@ -1286,7 +1290,7 @@ select.form-control {
   text-align: center;
   padding: var(--space-32);
   color: var(--color-text-secondary);
-  background: linear-gradient(135deg, var(--color-bg-1) 0%, #F8FBFF 100%);
+  background: linear-gradient(135deg, var(--color-bg-1) 0%, #FFF5F5 100%);
   border-radius: var(--radius-lg);
   border: 1px solid var(--color-border);
 }
